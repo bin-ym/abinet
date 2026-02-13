@@ -1,0 +1,28 @@
+{
+  "name": "Abinet Prayer",
+  "short_name": "Abinet",
+  "description": "Digital Abinet Learning App - Ethiopian Orthodox Christian Prayer and Education",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fef3c7",
+  "theme_color": "#d97706",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "lifestyle"],
+  "lang": "am",
+  "dir": "ltr"
+}
