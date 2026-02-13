@@ -1,55 +1,62 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { use } from "react";
 import Link from "next/link";
-import Image from "next/image";
+import { notFound } from "next/navigation";
+import { findNodeById, getParentNode } from "@/app/lib/prayer-utils";
 
-export default function PrayerPage() {
-  const audioRef = useRef<HTMLAudioElement>(null);
+export default function CategoryPage({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}) {
+  const { id } = use(params);
+  const node = findNodeById(id);
 
-  useEffect(() => {
-    audioRef.current?.play().catch(() => {});
-  }, []);
+  if (!node || !node.children) {
+    notFound();
+  }
+
+  const parent = getParentNode(id);
+  const backLink = parent ? `/category/${parent.id}` : "/";
+  const parentName = parent ? parent.title : "Back";
 
   return (
-    <main className="min-h-screen p-6 max-w-3xl mx-auto text-center">
-
-      {/* 🔙 Back to Category */}
-      <div className="flex justify-start mb-4">
+    <main className="min-h-screen p-6 max-w-3xl mx-auto">
+      {/* 🔙 Back Button */}
+      <div className="flex justify-start mb-6">
         <Link
-          href="/"
-          className="px-4 py-2 text-sm font-medium bg-gray-200 hover:bg-gray-300 rounded-lg transition"
+          href={backLink}
+          className="px-4 py-2 text-sm font-medium bg-amber-200 hover:bg-amber-300 rounded-lg transition text-amber-900"
         >
-          ← Back
+          ← {parentName}
         </Link>
       </div>
 
-      <h1 className="text-2xl font-bold mb-6">አዐትብ ገጽየ</h1>
+      <h1 className="text-3xl font-bold text-center mb-10 text-amber-900">
+        {node.title}
+      </h1>
 
-      <div className="mb-8 flex justify-center">
-        <Image
-          src="/images/mary.png"
-          alt="Virgin Mary"
-          width={250}
-          height={300}
-          className="rounded-xl shadow-lg"
-          priority
-        />
+      <div className="grid gap-4">
+        {node.children.map((child) => (
+          <Link
+            key={child.id}
+            href={
+              child.type === "category"
+                ? `/category/${child.id}`
+                : `/prayer/${child.id}`
+            }
+            className="p-5 rounded-xl bg-white shadow-md hover:shadow-lg transition border-l-4 border-amber-500 flex items-center justify-between group"
+          >
+            <span className="text-lg font-semibold text-gray-800 group-hover:text-amber-700">
+              {child.title}
+            </span>
+            <span className="text-amber-400">
+              {child.type === "category" ? "📂" : "🙏"}
+            </span>
+          </Link>
+        ))}
       </div>
-
-      <audio
-        ref={audioRef}
-        src="/audio/ዘወትር ጸሎት (2).amr"
-        controls
-        className="w-full mb-8"
-      />
-
-      <p className="text-xl leading-loose whitespace-pre-line">
-        አዐትብ ገጽየ ወኩለንታየ በትእምርተ መስቀል። 
-        በስመ አብ ወወልድ ወመንፈስ ቅዱስ አሐዱ አምላክ
-        በቅድስት ሥላሴ እንዘ አአምን ወእትመኅፀን እክሕደከ ሰይጣን በቅድመ ዛቲ እምየ
-        ቅድስት ቤተ ክርስትያን እንተ ይእቲ ስምዕየ ማርያም ጽዮን ለዓለም ዓለም፡፡
-      </p>
     </main>
   );
 }
