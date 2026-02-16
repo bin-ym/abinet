@@ -10,15 +10,16 @@ export const wedasePart1: PrayerNode[] = [
         id: "fekede-egzi",
         title: "1. ፈቀደ እግዚእ",
         type: "prayer",
-        audio: "/audio/ፈቀደ እግዚእ.mp3",
+        audio: "/audio/fekede-egzi.mp3",
+        segments: [
+          { start: 0, end: 7, text: "ዉዳሴሃ<sup>ቂ</sup> ለእግዝእትነ<sup>ጣ</sup> ማርያም<sup>ጣ</sup> ድንግል<sup>ቂ</sup> ወላዲተ-አምላክ<sup>ጣ</sup> ዘይትነበብ<sup>ፍ</sup> በዕለተ-ሰኑይ።<sup>ጣ</sup>" },
+          { start: 7, end: 9, text: "ፈቀደ<sup>ተ</sup> እግዚእ<sup>ጣ</sup>" },
+          { start: 9, end: 18, text: "ያግእዞ<sup>ተ</sup> ለአዳም<sup>ጣ</sup> ኅዙነ<sup>ተ</sup> ወትኩዘ-ልብ<sup>ጣ</sup> ወያግብኦ<sup>ተ</sup> ኀበ-ዘትካት<sup>ጣ</sup> መንበሩ።<sup>ቂ</sup> ሰአሊ<sup>ተ</sup> ለነ<sup>ጣ</sup> ተ ቅድስት።<sup>ጣ</sup>" },
+        ],
         content: `
-ውዳሴሃኒ
-ቂ ለእግዝእትነ
-ተ ማርያም<sup>ጣ</sup> ድንግል<sup>ቂ</sup> ወላዲተ-አምላክ<sup>ጣ</sup> ዘይትነበብ<sup>ፍ</sup> በዕለተ-ሰኑይ።ጣ
-ፈቀደ<sup>ተ</sup> እግዚእ<sup>ጣ</sup> ያግእዞ
-ተ ለአዳም<sup>ጣ</sup> ኅዙነ
-ተ ወትኩዘ-ልብ<sup>ጣ</sup> ወያግብኦ<sup>ተ</sup> ኀበ-ዘትካት<sup>ጣ</sup> መንበሩ።ቂ ሰአሊ<sup>ተ</sup> ለነ
-ተ ቅድስት።ጣ
+ዉዳሴሃ<sup>ቂ</sup> ለእግዝእትነ<sup>ጣ</sup> ማርያም<sup>ጣ</sup> ድንግል<sup>ቂ</sup> ወላዲተ-አምላክ<sup>ጣ</sup> ዘይትነበብ<sup>ፍ</sup> በዕለተ-ሰኑይ።<sup>ጣ</sup>
+ፈቀደ<sup>ተ</sup> እግዚእ<sup>ጣ</sup>
+ያግእዞ<sup>ተ</sup> ለአዳም<sup>ጣ</sup> ኅዙነ<sup>ተ</sup> ወትኩዘ-ልብ<sup>ጣ</sup> ወያግብኦ<sup>ተ</sup> ኀበ-ዘትካት<sup>ጣ</sup> መንበሩ።<sup>ቂ</sup> ሰአሊ<sup>ተ</sup> ለነ<sup>ጣ</sup> ተ ቅድስት።<sup>ጣ</sup>
 `,
       },
       {

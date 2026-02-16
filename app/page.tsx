@@ -4,7 +4,7 @@ import { prayerData } from "./data/prayers";
 export default function Home() {
   return (
     <main className="min-h-screen p-6">
-      <h1 className="text-3xl font-bold text-center mb-10 text-amber-900">
+      <h1 className="text-3xl font-bold text-center mb-10 text-blue-900">
         አብነት ትምህርት ቤት
       </h1>
 
@@ -13,7 +13,7 @@ export default function Home() {
           <Link
             key={cat.id}
             href={`/category/${cat.id}`}
-            className="p-6 rounded-2xl bg-white shadow-md text-center text-xl font-semibold hover:shadow-lg transition border-t-4 border-amber-500 text-gray-800"
+            className="p-6 rounded-2xl bg-white shadow-md text-center text-xl font-semibold hover:shadow-lg transition border-t-4 border-blue-500 text-gray-800"
           >
             {cat.title}
           </Link>

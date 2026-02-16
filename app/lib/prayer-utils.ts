@@ -45,3 +45,29 @@ export function getPrayerSiblings(
 
   return { prev, next };
 }
+
+export function getAllCategoryIds(nodes: PrayerNode[] = prayerData): string[] {
+  let ids: string[] = [];
+  for (const node of nodes) {
+    if (node.type === "category") {
+      ids.push(node.id);
+      if (node.children) {
+        ids = ids.concat(getAllCategoryIds(node.children));
+      }
+    }
+  }
+  return ids;
+}
+
+export function getAllPrayerIds(nodes: PrayerNode[] = prayerData): string[] {
+  let ids: string[] = [];
+  for (const node of nodes) {
+    if (node.type === "prayer") {
+      ids.push(node.id);
+    }
+    if (node.children) {
+      ids = ids.concat(getAllPrayerIds(node.children));
+    }
+  }
+  return ids;
+}

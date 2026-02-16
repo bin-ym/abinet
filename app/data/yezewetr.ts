@@ -7,9 +7,21 @@ export const yezewetr: PrayerNode = {
   children: [
     {
       id: "beseme-ab",
-      title: "በስመ አብ",
+      title: "አአትብ",
       type: "prayer",
-      audio: "/audio/ዘወትር ጸሎት (2).mp3",
+      audio: "/audio/በስመ አብ.mp3",
+      segments: [
+        { start: 0, end: 7, text: "አአትብ<sup>ፍ</sup> ገጽየ<sup>ተ</sup> ወኲለንታየ<sup>ተ</sup> በትእምርተ-መስቀል<sup>ጣ</sup>" },
+        { start: 7, end: 12, text: "በስመ-አብ<sup>ጣ</sup> ወወልድ<sup>ጣ</sup> ወመንፈስ-ቅዱስ<sup>ጣ</sup> አሐዱ<sup>ቂ</sup> አምላክ<sup>ጣ</sup>" },
+        { start: 12, end: 18, text: "በቅድስት<sup>ጣ</sup> ሥላሴ<sup>ቂ</sup>" },
+        { start: 18, end: 24, text: "እንዘ-አአምን<sup>ፍ</sup> ወእትመኃጸን<sup>ፍ</sup>" },
+        { start: 24, end: 29, text: "እክህደከ<sup>ተ</sup> ሰይጣን<sup>ጣ</sup>" },
+        { start: 29, end: 34, text: "በቅድመ-ዛቲ<sup>ቂ</sup>" },
+        { start: 34, end: 39, text: "እምየ<sup>ተ</sup> ቅድስት<sup>ጣ</sup> ቤተክርስቲያን<sup>ጣ</sup>" },
+        { start: 39, end: 44, text: "እንተ-ይእቲ<sup>ተ</sup>" },
+        { start: 44, end: 49, text: "ስምእየ<sup>ተ</sup> ማርያም<sup>ጣ</sup>" },
+        { start: 30, end: 35, text: "ጽዮን<sup>ተ</sup> ለዓለመ-ዓለም።<sup>ጣ</sup>" },
+      ],
       content: `
 አአትብ<sup>ፍ</sup> ገጽየ<sup>ተ</sup> ወኲለንታየ<sup>ተ</sup> በትእምርተ-መስቀል<sup>ጣ</sup>
 በስመ-አብ<sup>ጣ</sup> ወወልድ<sup>ጣ</sup> ወመንፈስ-ቅዱስ<sup>ጣ</sup> አሐዱ<sup>ቂ</sup> አምላክ<sup>ጣ</sup>
@@ -29,10 +41,8 @@ export const yezewetr: PrayerNode = {
       type: "prayer",
       audio: "/audio/ነአኲተከ.mp3",
       content: `
-ነአኩተከ<sup>ተ</sup> እግዚኦ<sup>ቂ</sup> ወንሴብሓከ<sup>ተ</sup> ንባርከከ<sup>ተ</sup> እግዚኦ<sup>ቂ</sup> ወንትአመነከ<sup>ተ</sup> ንስእለከ<sup>ተ</sup> እግዚኦ<sup>ቂ</sup> ወናስተብቍዓከ<sup>ተ</sup> ንገኒ
-ተ ለከ<sup>ተ</sup> እግዚኦ<sup>ቂ</sup> ወንትቀነይ<sup>ተ</sup> ለስምከ<sup>ተ</sup> ቅዱስ።ጣ ንሰግድ<sup>ተ</sup> ለከ<sup>ተ</sup> ኦ<sup>ቂ</sup> ዘለከ<sup>ተ</sup> ይሰግድ<sup>ተ</sup> ኩሉ<sup>ቂ</sup> ብርክ<sup>ቂ</sup> ወለከ<sup>ተ</sup> ይትቀነይ<sup>ጣ</sup> ኩሉ<sup>ቂ</sup> ልሳን።ጣ አንተ<sup>ተ</sup> ውእቱ<sup>ተ</sup> አምላከ-አማልክት<sup>ጣ</sup> ወእግዚአ አጋእዝት<sup>ጣ</sup> ወንጉሠ-ነገሥት<sup>ጣ</sup> አምላክ<sup>ጣ</sup> አንተ<sup>ተ</sup> ለኩሉ<sup>ቂ</sup> ዘሥጋ<sup>ቂ</sup> ወለኩላ<sup>ቂ</sup> ዘነፍስ<sup>ጣ</sup> ወንጼውአከ<sup>ተ</sup> ንሕነ
-ተ በከመ-መሐረነ
-ተ ቅዱስ<sup>ጣ</sup> ወልድከ<sup>ተ</sup> እንዘ ይብል<sup>ጣ</sup> አንትሙሰ<sup>ቂ</sup> ሶበ-ትጸልዩ<sup>ተ</sup> ከመዝ<sup>ቂ</sup> በሉ።ተ
+ነአኩተከ<sup>ተ</sup> እግዚኦ<sup>ቂ</sup> ወንሴብሓከ<sup>ተ</sup> ንባርከከ<sup>ተ</sup> እግዚኦ<sup>ቂ</sup> ወንትአመነከ<sup>ተ</sup> ንስእለከ<sup>ተ</sup> እግዚኦ<sup>ቂ</sup> ወናስተብቍዓከ<sup>ተ</sup> ንገኒ ለከ<sup>ተ</sup>እግዚኦ<sup>ቂ</sup> ወንትቀነይ<sup>ተ</sup> ለስምከ<sup>ተ</sup> ቅዱስ<sup>ጣ</sup>። ንሰግድ<sup>ተ</sup> ለከ<sup>ተ</sup> ኦ<sup>ቂ</sup> ዘለከ<sup>ተ</sup> ይሰግድ<sup>ተ</sup> ኩሉ<sup>ቂ</sup> ብርክ<sup>ቂ</sup> ወለከ<sup>ተ</sup> ይትቀነይ<sup>ጣ</sup> ኩሉ<sup>ቂ</sup> ልሳን<sup>ጣ</sup>። አንተ<sup>ተ</sup> ውእቱ<sup>ተ</sup> አምላከ-አማልክት<sup>ጣ</sup> ወእግዚአ አጋእዝት<sup>ጣ</sup> ወንጉሠ-ነገሥት<sup>ጣ</sup> አምላክ<sup>ጣ</sup> አንተ<sup>ተ</sup> ለኩሉ<sup>ቂ</sup> ዘሥጋ<sup>ቂ</sup> ወለኩላ<sup>ቂ</sup> ዘነፍስ<sup>ጣ</sup> ወንጼውአከ<sup>ተ</sup>በከመ-መሐረነ<sup>ተ</sup>
+ቅዱስ<sup>ጣ</sup> ወልድከ<sup>ተ</sup> እንዘ ይብል<sup>ጣ</sup> አንትሙሰ<sup>ቂ</sup> ሶበ-ትጸልዩ<sup>ተ</sup> ከመዝ<sup>ቂ</sup> በሉ<sup>ተ</sup>።
 `,
     },
     {
@@ -62,36 +72,36 @@ export const yezewetr: PrayerNode = {
     },
     {
       id: "tselote-haymanot",
-      title: "ጸሎ<sup>ተ</sup> ሃይማኖት",
+      title: "ጸሎተ ሃይማኖት",
       type: "prayer",
-      audio: "/audio/ጸሎ<sup>ተ</sup> ሃይማኖት.mp3",
+      audio: "/audio/ጸሎተ ሃይማኖት.mp3",
       content: `
 ጸሎተ-ሃይማኖት<sup>ጣ</sup> ነአምን
-ተ በአሐዱ<sup>ቂ</sup> አምላክ<sup>ጣ</sup> እግዚአብሔር<sup>ጣ</sup> አብ<sup>ጣ</sup> አኃዜ-ኩሉ<sup>ቂ</sup> ገባሬ ሰማያት<sup>ቂ</sup> ወምድር<sup>ጣ</sup> ዘያስተርኢ<sup>ተ</sup> ወዘኢያስተርኢ<sup>ተ</sup> ወነአምን
-ተ በአሐዱ<sup>ቂ</sup> እግዚአ<sup>ጣ</sup> ኢየሱስ ጣ ክርስቶስ<sup>ጣ</sup> ወልደ አብ<sup>ጣ</sup> ዋሕድ<sup>ጣ</sup> ዘህልው<sup>ጣ</sup> ምስሌሁ<sup>ቂ</sup> እምቅድመ ይትፈጠር<sup>ፍ</sup> ዓለም<sup>ጣ</sup> ብርሃን
-ጣ ዘእምብርሃን
-ጣ አምላክ<sup>ጣ</sup> ዘእምአምላክ<sup>ጣ</sup> ዘበአማን
-ጣ ዘተወልደ<sup>ተ</sup> ወአኮ<sup>ቂ</sup> ዘተገብረ<sup>ተ</sup> ዘዕሩይ<sup>ጣ</sup> ምስለ አብ<sup>ጣ</sup> በመለኮቱ<sup>ቂ</sup> ዘቦቱ<sup>ቂ</sup> ኩሉ<sup>ቂ</sup> ኮነ
-ተ ወዘእንበሌሁሰ<sup>ተ</sup> አልቦ<sup>ቂ</sup> ዘኮነ
-ተ ወኢምንትኒ
-ጣ ዘበሰማይኒ
-ጣ ወዘበምድርኒ
-ቂ ዘበእንቲአነ
-ተ ለሰብእ<sup>ጣ</sup> ወበእን<sup>ተ</sup> መድኃኒትነ
-ተ ወረደ<sup>ተ</sup> እምሰማያት<sup>ጣ</sup> ተሰብአ<sup>ተ</sup> ወተሠገወ<sup>ተ</sup> እምመንፈስ-ቅዱስ<sup>ጣ</sup> ወእም-ማርያም<sup>ጣ</sup> እም ቅድስት<sup>ጣ</sup> ድንግል<sup>ጣ</sup> ኮነ
-ተ ብእሴ<sup>ጣ</sup> ወተሰቅለ<sup>ተ</sup> በእንቲአነ
-ተ በመዋዕለ-ጲላጦስ<sup>ጣ</sup> ጰንጤናዊ<sup>ቂ</sup> ሐመ<sup>ተ</sup> ወሞተ<sup>ተ</sup> ወተቀበረ<sup>ተ</sup> ወተንሥአ<sup>ተ</sup> እሙታን
-ጣ አመ ሣልስት<sup>ጣ</sup> ዕለት<sup>ጣ</sup> በከመ-ጽሑፍ<sup>ጣ</sup> ውስተ-ቅዱሳት<sup>ጣ</sup> መጻህፍት<sup>ጣ</sup> ዐርገ
-ተ በስብሐት<sup>ጣ</sup> ውስተ-ሰማያት<sup>ጣ</sup> ወነበረ በየማነ
-ተ አቡሁ<sup>ቂ</sup> ዳግመ<sup>ተ</sup> ይመጽእ<sup>ተ</sup> በስብሐት<sup>ጣ</sup> ይኰንን
-ተ ሕያዋነ
-ተ ወሙታነ
-ተ ወአልቦ<sup>ቂ</sup> ማኅለቅት<sup>ጣ</sup> ለመንግሥቱ<sup>ቂ</sup> ወነአምን
-ተ በመንፈስ ቅዱስ<sup>ጣ</sup> እግዚአ<sup>ጣ</sup> ማኅየዊ<sup>ቂ</sup> ዘሠረጸ<sup>ተ</sup> እም-አብ<sup>ጣ</sup> ንሰግድ<sup>ተ</sup> ሎቱ<sup>ቂ</sup> ወንሰብሖ<sup>ተ</sup> ምስለ አብ<sup>ጣ</sup> ወወልድ<sup>ጣ</sup> ዘነበበ<sup>ተ</sup> በነብያት<sup>ጣ</sup> ወነአምን
-ተ በአሐቲ<sup>ቂ</sup> ቅድስት<sup>ጣ</sup> ቤተ-ክርስቲያን
-ጣ እንተ-ላእለ ኩሉ<sup>ቂ</sup> ጉባኤ<sup>ቂ</sup> ዘሐዋሪያት<sup>ጣ</sup> ወነአምን
-ተ በአሐቲ<sup>ቂ</sup> ጥምቀት<sup>ጣ</sup> ለሥርየተ-ኃጢአት<sup>ጣ</sup> ወንሴፎ<sup>ተ</sup> ትንሣኤ<sup>ጣ</sup> ሙታን
-ጣ ወሕይወተ<sup>ተ</sup> ዘይመጽእ<sup>ተ</sup> ለዓለመ-ዓለም።ጣ
+በአሐዱ<sup>ቂ</sup> አምላክ<sup>ጣ</sup> እግዚአብሔር<sup>ጣ</sup> አብ<sup>ጣ</sup> አኃዜ-ኩሉ<sup>ቂ</sup> ገባሬ ሰማያት<sup>ቂ</sup> ወምድር<sup>ጣ</sup> ዘያስተርኢ<sup>ተ</sup> ወዘኢያስተርኢ<sup>ተ</sup> ወነአምን
+በአሐዱ<sup>ቂ</sup> እግዚአ<sup>ጣ</sup> ኢየሱስ ጣ ክርስቶስ<sup>ጣ</sup> ወልደ አብ<sup>ጣ</sup> ዋሕድ<sup>ጣ</sup> ዘህልው<sup>ጣ</sup> ምስሌሁ<sup>ቂ</sup> እምቅድመ ይትፈጠር<sup>ፍ</sup> ዓለም<sup>ጣ</sup> ብርሃን
+ዘእምብርሃን
+አምላክ<sup>ጣ</sup> ዘእምአምላክ<sup>ጣ</sup> ዘበአማን
+ዘተወልደ<sup>ተ</sup> ወአኮ<sup>ቂ</sup> ዘተገብረ<sup>ተ</sup> ዘዕሩይ<sup>ጣ</sup> ምስለ አብ<sup>ጣ</sup> በመለኮቱ<sup>ቂ</sup> ዘቦቱ<sup>ቂ</sup> ኩሉ<sup>ቂ</sup> ኮነ
+ወዘእንበሌሁሰ<sup>ተ</sup> አልቦ<sup>ቂ</sup> ዘኮነ
+ወኢምንትኒ
+ዘበሰማይኒ
+ወዘበምድርኒ
+ዘበእንቲአነ
+ለሰብእ<sup>ጣ</sup> ወበእን<sup>ተ</sup> መድኃኒትነ
+ወረደ<sup>ተ</sup> እምሰማያት<sup>ጣ</sup> ተሰብአ<sup>ተ</sup> ወተሠገወ<sup>ተ</sup> እምመንፈስ-ቅዱስ<sup>ጣ</sup> ወእም-ማርያም<sup>ጣ</sup> እም ቅድስት<sup>ጣ</sup> ድንግል<sup>ጣ</sup> ኮነ
+ብእሴ<sup>ጣ</sup> ወተሰቅለ<sup>ተ</sup> በእንቲአነ
+በመዋዕለ-ጲላጦስ<sup>ጣ</sup> ጰንጤናዊ<sup>ቂ</sup> ሐመ<sup>ተ</sup> ወሞተ<sup>ተ</sup> ወተቀበረ<sup>ተ</sup> ወተንሥአ<sup>ተ</sup> እሙታን
+አመ ሣልስት<sup>ጣ</sup> ዕለት<sup>ጣ</sup> በከመ-ጽሑፍ<sup>ጣ</sup> ውስተ-ቅዱሳት<sup>ጣ</sup> መጻህፍት<sup>ጣ</sup> ዐርገ
+በስብሐት<sup>ጣ</sup> ውስተ-ሰማያት<sup>ጣ</sup> ወነበረ በየማነ
+አቡሁ<sup>ቂ</sup> ዳግመ<sup>ተ</sup> ይመጽእ<sup>ተ</sup> በስብሐት<sup>ጣ</sup> ይኰንን
+ሕያዋነ
+ወሙታነ
+ወአልቦ<sup>ቂ</sup> ማኅለቅት<sup>ጣ</sup> ለመንግሥቱ<sup>ቂ</sup> ወነአምን
+በመንፈስ ቅዱስ<sup>ጣ</sup> እግዚአ<sup>ጣ</sup> ማኅየዊ<sup>ቂ</sup> ዘሠረጸ<sup>ተ</sup> እም-አብ<sup>ጣ</sup> ንሰግድ<sup>ተ</sup> ሎቱ<sup>ቂ</sup> ወንሰብሖ<sup>ተ</sup> ምስለ አብ<sup>ጣ</sup> ወወልድ<sup>ጣ</sup> ዘነበበ<sup>ተ</sup> በነብያት<sup>ጣ</sup> ወነአምን
+በአሐቲ<sup>ቂ</sup> ቅድስት<sup>ጣ</sup> ቤተ-ክርስቲያን
+እንተ-ላእለ ኩሉ<sup>ቂ</sup> ጉባኤ<sup>ቂ</sup> ዘሐዋሪያት<sup>ጣ</sup> ወነአምን
+በአሐቲ<sup>ቂ</sup> ጥምቀት<sup>ጣ</sup> ለሥርየተ-ኃጢአት<sup>ጣ</sup> ወንሴፎ<sup>ተ</sup> ትንሣኤ<sup>ጣ</sup> ሙታን
+ወሕይወተ<sup>ተ</sup> ዘይመጽእ<sup>ተ</sup> ለዓለመ-ዓለም።
 `,
     },
     {
@@ -160,28 +170,19 @@ export const yezewetr: PrayerNode = {
       type: "prayer",
       audio: "/audio/ሰላም ለኪ.mp3",
       content: `
-ሰላም<sup>ጣ</sup> ለኪ<sup>ተ</sup> እንዘ-ንሰግድ<sup>ፍ</sup> ንብለኪ<sup>ተ</sup> ማርያም<sup>ጣ</sup> እምነ
-ተ ናስተበቍዐኪ።ተ እምአርዌ<sup>ቂ</sup> ነዓዊ<sup>ቂ</sup> ተማህፀነ
-ተ ብኪ<sup>ተ</sup> በእን<sup>ተ</sup> ሐና<sup>ቂ</sup> እምኪ<sup>ተ</sup> ወኢያቄም<sup>ጣ</sup> አቡኪ<sup>ተ</sup> ማኅበረነ
-ተ ዮም<sup>ጣ</sup> ድንግል<sup>ጣ</sup> ባርኪ።ተ
-ጸሎት-እግዝእትነ
-ተ ማርያም<sup>ጣ</sup> ድንግል<sup>ጣ</sup> ወላዲተ<sup>ጣ</sup> ኣምላክ።
-ጣ ታዐብዮ<sup>ቂ</sup> ነብስየ
-ተ ለእግዚአብሔር<sup>ጣ</sup> ወትትኃሠይ<sup>ፍ</sup> መንፈስየ
-ተ በአምላኪየ
-ተ ወመድኃንየ
-ተ እስመ ርእየ
-ተ ሕማማ<sup>ቂ</sup> ለአመቱ<sup>ቂ</sup> ናሁ<sup>ቂ</sup> እምይእዜሰ<sup>ተ</sup> ያስተበፅዑኒ
-ተ ኩሉ<sup>ቂ</sup> ትዉልድ<sup>ጣ</sup> እስመ ገብረ<sup>ተ</sup> ሊተ<sup>ተ</sup> ኃይለ<sup>ተ</sup> ዐቢያተ<sup>ተ</sup> ወቅዱስ<sup>ጣ</sup> ስሙ<sup>ቂ</sup> ወሣህሉኒ
-ቂ ለትውልድ-ትዉልድ<sup>ጣ</sup> ለእለ-ይፈርህዎ<sup>ተ</sup> ወገብረ<sup>ተ</sup> ኃይለ<sup>ተ</sup> በመዝራዕቱ<sup>ቂ</sup> ወዘረዎሙ<sup>ተ</sup> ለእለ ያዐብዩ<sup>ተ</sup> ሕሊና-
-ልቦሙ<sup>ጣ</sup> ወነሠቶሙ<sup>ተ</sup> ለኃያላን
-ጣ እመናብርቲሆሙ<sup>ተ</sup> አዕበዩሙ<sup>ተ</sup> ለትሑታን
-ጣ ወአጽገቦሙ<sup>ተ</sup> እምበረከቱ<sup>ቂ</sup> ለርኁባን
-ጣ ወፈነዎሙ<sup>ተ</sup> ዕራቆሙ<sup>ተ</sup> ለብዑላን
-ጣ
-ወተወክፎ<sup>ቂ</sup> ለእስራኤል<sup>ጣ</sup> ቍልዔሁ<sup>ቂ</sup> ወተዘከረ<sup>ተ</sup> ሣህሎ<sup>ቂ</sup> ዘይቤሎሙ<sup>ተ</sup> ለአበዊነ
-ተ ለአብርሃም<sup>ፍ</sup> ወለዘርኡ<sup>ቂ</sup> እስከ-ለዓለም።ጣ
-`,
+  ሰላም<sup>ጣ</sup> ለኪ<sup>ተ</sup> እንዘ-ንሰግድ<sup>ፍ</sup> ንብለኪ<sup>ተ</sup> ማርያም<sup>ጣ</sup> እምነ
+  ተ ናስተበቍዐኪ።ተ እምአርዌ<sup>ቂ</sup> ነዓዊ<sup>ቂ</sup> ተማህፀነ
+  ተ ብኪ<sup>ተ</sup> በእን<sup>ተ</sup> ሐና<sup>ቂ</sup> እምኪ<sup>ተ</sup> ወኢያቄም<sup>ጣ</sup> አቡኪ<sup>ተ</sup> ማኅበረነ
+  ተ ዮም<sup>ጣ</sup> ድንግል<sup>ጣ</sup> ባርኪ።<sup>ተ</sup>
+  `,
+    },
+    {
+      id: "tselot-egezebetnete",
+      title: "ጸሎት-እግዝእትነተ",
+      type: "prayer",
+      audio: "/audio/ጸሎት-እግዝእትነተ.mp3",
+      content: `
+  ጸሎት-እግዝእትነተ ማርያምጣ ድንግልጣ ወላዲተጣ ኣምላክ።ጣ ታዐብዮቂ ነብስየተ ለእግዚአብሔርጣ ወትትኃሠይፍ መንፈስየተ በአምላኪየተ ወመድኃንየተ እስመ-ርእየተ ሕማማቂ ለአመቱቂ ናሁቂ እምይእዜሰተ ያስተበፅዑኒተ ኩሉቂ ትዉልድጣ እስመ-ገብረተ ሊተተ ኃይለተ ዐቢያተተ ወቅዱስጣ ስሙቂ ወሣህሉኒቂ ለትውልድ-ትዉልድጣ ለእለ-ይፈርህዎተ ወገብረተ ኃይለተ በመዝራዕቱቂ ወዘረዎሙተ ለእለ-ያዐብዩተ ሕሊና-ልቦሙጣ ወነሠቶሙተ ለኃያላንጣ እመናብርቲሆሙተ አዕበዩሙተ ለትሑታንጣ ወአጽገቦሙተ እምበረከቱቂ ለርኁባንጣ ወፈነዎሙተ ዕራቆሙተ ለብዑላንጣ ወተወክፎቂ ለእስራኤልጣ ቍልዔሁቂ ወተዘከረተ ሣህሎቂ ዘይቤሎሙተ ለአበዊነተ ለአብርሃምፍ ወለዘርኡቂ እስከ-ለዓለም።ጣ`,
     },
   ],
 };

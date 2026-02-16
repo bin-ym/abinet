@@ -5,4 +5,11 @@ export type PrayerNode = {
   children?: PrayerNode[];
   content?: string;
   audio?: string;
+  segments?: PrayerSegment[];
+};
+
+export type PrayerSegment = {
+  start: number;
+  end: number;
+  text: string;
 };
