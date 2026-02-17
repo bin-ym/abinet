@@ -1,7 +1,9 @@
 const fs = require("fs");
 const path = require("path");
 
-const srcIcon = "public/icon-192x192.png";
+// Source icon for both Android launcher icons and PWA icons.
+// Using the logo the user requested.
+const srcIcon = "public/logo.jpg";
 const baseDest = "android/app/src/main/res";
 
 const dirs = [

@@ -4,7 +4,7 @@ const withPWA = require("next-pwa")({
   dest: "public",
   register: true,
   skipWaiting: true,
-  disable: process.env.NODE_ENV === "development", // disable PWA in dev
+  disable: true, // process.env.NODE_ENV === "development", // temporarily disabled for build debugging
 });
 
 const nextConfig: NextConfig = {
@@ -14,4 +14,5 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default withPWA(nextConfig);
+// export default withPWA(nextConfig);
+export default nextConfig;

@@ -42,20 +42,25 @@ export default function PrayerClient({ id }: { id: string }) {
 
   return (
     <main className="min-h-screen p-6 max-w-3xl mx-auto text-center pb-32">
-      {/* 🔙 Back Button */}
-      <div className="flex justify-start mb-6">
-        <Link
-          href={backLink}
-          className="px-4 py-2 text-sm font-medium bg-blue-100 hover:bg-blue-200 rounded-lg transition text-blue-900"
-        >
-          ← {parentName}
-        </Link>
-      </div>
+      {/* 📱 Top Navbar with Back + Title */}
+      <header className="sticky top-0 z-40 -mx-6 mb-3 bg-blue-50/95 backdrop-blur-sm">
+        <div className="px-6 py-3 flex items-center gap-3">
+          <Link
+            href={backLink}
+            className="px-4 py-2 text-sm font-medium bg-blue-100 hover:bg-blue-200 rounded-lg transition text-blue-900"
+          >
+            ← {parentName}
+          </Link>
+          <h1 className="flex-1 text-lg font-semibold text-blue-900 text-center truncate">
+            {node.title}
+          </h1>
+          {/* spacer to balance back button width on the right */}
+          <div className="w-16" />
+        </div>
+      </header>
 
-      <h1 className="text-2xl font-bold mb-8 text-blue-900">{node.title}</h1>
-
-      {/* Image */}
-      <div className="mb-8 flex justify-center">
+      {/* Image with small gap below navbar */}
+      <div className="mt-2 mb-8 flex justify-center">
         <Image
           src="/images/mary.png"
           alt="Virgin Mary"
