@@ -1,72 +1,52 @@
-# PWA APK Build Instructions
+# Capacitor Android APK Build
 
 ## Prerequisites
 
-- Node.js and npm installed ✓
-- Bubblewrap CLI installed ✓
-- Java Development Kit (JDK) 11 or higher
-- Android SDK (optional, Bubblewrap can download it)
+- Node.js and pnpm
+- JDK 11+
+- Android SDK (Android Studio or command-line)
 
-## Steps to Build APK
+## Build APK (live updates from Vercel)
 
-### 1. Deploy to Vercel First
+The app can load from your Vercel URL so content (prayers, audio, etc.) updates without users downloading a new APK.
 
-Before building the APK, you need to deploy your app to Vercel:
+1. Deploy your site to Vercel (e.g. `https://abinet-prayer.vercel.app`).
+2. Build and copy for Android with the live URL:
+   ```bash
+   pnpm run build:android:live
+   ```
+3. Build the APK:
+   ```bash
+   cd android && .\gradlew.bat assembleDebug
+   ```
+   **APK path:** `android\app\build\outputs\apk\debug\app-debug.apk`
 
-```bash
-# Push your code to GitHub
-git add .
-git commit -m "Add PWA support"
-git push
+To use a different URL, set `CAPACITOR_SERVER_URL` before the build (e.g. in `.env` or CI).
 
-# Or deploy directly with Vercel CLI
-npm install -g vercel
-vercel
-```
+## Build APK (bundled, no server)
 
-After deployment, note your Vercel URL (e.g., `https://abinet-prayer.vercel.app`)
-
-### 2. Update TWA Configuration
-
-Edit `twa-manifest.json` and replace `abinet-prayer.vercel.app` with your actual Vercel URL.
-
-### 3. Initialize Bubblewrap Project
+To ship an APK that runs fully offline from bundled files:
 
 ```bash
-cd c:\Users\Ym\Desktop\b\Projects\abinet
-bubblewrap init --manifest twa-manifest.json
+pnpm build
+npx cap copy android
+cd android && .\gradlew.bat assembleDebug
 ```
 
-This will:
+## App icon
 
-- Download Android SDK if needed
-- Create a keystore for signing (save the password!)
-- Generate the Android project structure
-
-### 4. Build the APK
+The launcher icon is generated from `public/logo.jpg` (or `public/logo.png`). It is drawn **full-size** (fills the icon square). After changing the logo:
 
 ```bash
-bubblewrap build
+pnpm run icons
 ```
 
-The APK will be generated in the project directory as `app-release-signed.apk`
+Then rebuild the APK.
 
-### 5. Install on Android Device
+## Install on device
 
-Transfer the APK to your Android device and install it. You may need to enable "Install from unknown sources" in your device settings.
-
-## Alternative: Use PWA Builder
-
-If Bubblewrap has issues, you can use PWA Builder:
-
-1. Visit https://www.pwabuilder.com/
-2. Enter your deployed Vercel URL
-3. Click "Package For Stores"
-4. Select Android and download the APK
+Copy `app-debug.apk` to your Android device and install. You may need to allow “Install from unknown sources” in device settings.
 
 ## Notes
 
-- The APK will open your web app in a native Android wrapper
-- Users will need internet connection to use the app
-- For offline functionality, ensure service worker caching is properly configured
-- For Google Play Store distribution, you'll need to sign with a production keystore
+- For Google Play, sign with a release keystore and use `assembleRelease`.

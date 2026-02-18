@@ -43,7 +43,7 @@ export default function PrayerClient({ id }: { id: string }) {
   return (
     <main className="min-h-screen p-6 max-w-3xl mx-auto text-center pb-32">
       {/* 📱 Top Navbar with Back + Title */}
-      <header className="sticky top-0 z-40 -mx-6 mb-3 bg-blue-50/95 backdrop-blur-sm">
+      <header className="sticky top-0 z-40 -mx-6 mb-3 bg-blue-50/95 backdrop-blur-sm border-b border-blue-500">
         <div className="px-6 py-3 flex items-center gap-3">
           <Link
             href={backLink}

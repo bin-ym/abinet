@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">Abinet</string>
-    <string name="title_activity_main">Abinet</string>
-    <string name="package_name">com.abinet.prayer</string>
-    <string name="custom_url_scheme">com.abinet.prayer</string>
+    <string name="app_name">ብርሃነ ሕይወት</string>
+    <string name="title_activity_main">ብርሃነ ሕይወት</string>
+    <string name="package_name">com.abinet.prayer.app</string>
+    <string name="custom_url_scheme">com.abinet.prayer.app</string>
 </resources>

@@ -40,8 +40,21 @@ export const yezewetr: PrayerNode = {
       title: "ነአኲተከ",
       type: "prayer",
       audio: "/audio/ነአኲተከ.mp3",
+      segments: [
+        { start: 0, end: 3, text: "ነ  አኩተከ<sup>ተ</sup> እግዚኦ<sup>ቂ</sup> ወንሴብሓከ<sup>ተ</sup>"},
+        { start: 3, end: 7, text: "ንባርከከ<sup>ተ</sup> እግዚኦ<sup>ቂ</sup> ወንትአመነከ<sup>ተ</sup>"},
+        { start: 7, end: 12, text: "ንስእለከ<sup>ተ</sup> እግዚኦ<sup>ቂ</sup> ወናስተብቍዓከ<sup>ተ</sup>"},
+        { start: 12, end: 17, text: "ንገኒ ለከ<sup>ተ</sup>እግዚኦ<sup>ቂ</sup> ወንትቀነይ<sup>ተ</sup> ለስምከ<sup>ተ</sup> ቅዱስ<sup>ጣ</sup>።"},
+        { start: 17, end: 26, text: "ንሰግድ<sup>ተ</sup> ለከ<sup>ተ</sup> ኦ<sup>ቂ</sup> ዘለከ<sup>ተ</sup> ይሰግድ<sup>ተ</sup> ኩሉ<sup>ቂ</sup> ብርክ<sup>ቂ</sup> ወለከ<sup>ተ</sup> ይትቀነይ<sup>ጣ</sup> ኩሉ<sup>ቂ</sup> ልሳን<sup>ጣ</sup>።"},
+        { start: 26, end: 33, text: "አንተ<sup>ተ</sup> ውእቱ<sup>ተ</sup> አምላከ-አማልክት<sup>ጣ</sup> ወእግዚአ አጋእዝት<sup>ጣ</sup> ወንጉሠ-ነገሥት<sup>ጣ</sup> አምላክ<sup>ጣ</sup>"},
+        { start: 33, end: 37, text: "አንተ<sup>ተ</sup> ለኩሉ<sup>ቂ</sup> ዘሥጋ<sup>ቂ</sup> ወለኩላ<sup>ቂ</sup> ዘነፍስ<sup>ጣ</sup>"},
+        { start: 37, end: 40, text: "ወንጼውአከ<sup>ተ</sup>በከመ-መሐረነ<sup>ተ</sup>"},
+        { start: 40, end: 43, text: "ቅዱስ<sup>ጣ</sup> ወልድከ<sup>ተ</sup> እንዘ ይብል<sup>ጣ</sup>"},
+        { start: 43, end: 47, text: "አንትሙሰ<sup>ቂ</sup> ሶበ-ትጸልዩ<sup>ተ</sup> ከመዝ<sup>ቂ</sup> በሉ<sup>ተ</sup>።"},
+      ],
       content: `
-ነአኩተከ<sup>ተ</sup> እግዚኦ<sup>ቂ</sup> ወንሴብሓከ<sup>ተ</sup> ንባርከከ<sup>ተ</sup> እግዚኦ<sup>ቂ</sup> ወንትአመነከ<sup>ተ</sup> ንስእለከ<sup>ተ</sup> እግዚኦ<sup>ቂ</sup> ወናስተብቍዓከ<sup>ተ</sup> ንገኒ ለከ<sup>ተ</sup>እግዚኦ<sup>ቂ</sup> ወንትቀነይ<sup>ተ</sup> ለስምከ<sup>ተ</sup> ቅዱስ<sup>ጣ</sup>። ንሰግድ<sup>ተ</sup> ለከ<sup>ተ</sup> ኦ<sup>ቂ</sup> ዘለከ<sup>ተ</sup> ይሰግድ<sup>ተ</sup> ኩሉ<sup>ቂ</sup> ብርክ<sup>ቂ</sup> ወለከ<sup>ተ</sup> ይትቀነይ<sup>ጣ</sup> ኩሉ<sup>ቂ</sup> ልሳን<sup>ጣ</sup>። አንተ<sup>ተ</sup> ውእቱ<sup>ተ</sup> አምላከ-አማልክት<sup>ጣ</sup> ወእግዚአ አጋእዝት<sup>ጣ</sup> ወንጉሠ-ነገሥት<sup>ጣ</sup> አምላክ<sup>ጣ</sup> አንተ<sup>ተ</sup> ለኩሉ<sup>ቂ</sup> ዘሥጋ<sup>ቂ</sup> ወለኩላ<sup>ቂ</sup> ዘነፍስ<sup>ጣ</sup> ወንጼውአከ<sup>ተ</sup>በከመ-መሐረነ<sup>ተ</sup>
+ነአኩተከ<sup>ተ</sup> እግዚኦ<sup>ቂ</sup> ወንሴብሓከ<sup>ተ</sup>
+ንባርከከ<sup>ተ</sup> እግዚኦ<sup>ቂ</sup> ወንትአመነከ<sup>ተ</sup> ንስእለከ<sup>ተ</sup> እግዚኦ<sup>ቂ</sup> ወናስተብቍዓከ<sup>ተ</sup> ንገኒ ለከ<sup>ተ</sup>እግዚኦ<sup>ቂ</sup> ወንትቀነይ<sup>ተ</sup> ለስምከ<sup>ተ</sup> ቅዱስ<sup>ጣ</sup>። ንሰግድ<sup>ተ</sup> ለከ<sup>ተ</sup> ኦ<sup>ቂ</sup> ዘለከ<sup>ተ</sup> ይሰግድ<sup>ተ</sup> ኩሉ<sup>ቂ</sup> ብርክ<sup>ቂ</sup> ወለከ<sup>ተ</sup> ይትቀነይ<sup>ጣ</sup> ኩሉ<sup>ቂ</sup> ልሳን<sup>ጣ</sup>። አንተ<sup>ተ</sup> ውእቱ<sup>ተ</sup> አምላከ-አማልክት<sup>ጣ</sup> ወእግዚአ አጋእዝት<sup>ጣ</sup> ወንጉሠ-ነገሥት<sup>ጣ</sup> አምላክ<sup>ጣ</sup> አንተ<sup>ተ</sup> ለኩሉ<sup>ቂ</sup> ዘሥጋ<sup>ቂ</sup> ወለኩላ<sup>ቂ</sup> ዘነፍስ<sup>ጣ</sup> ወንጼውአከ<sup>ተ</sup>በከመ-መሐረነ<sup>ተ</sup>
 ቅዱስ<sup>ጣ</sup> ወልድከ<sup>ተ</sup> እንዘ ይብል<sup>ጣ</sup> አንትሙሰ<sup>ቂ</sup> ሶበ-ትጸልዩ<sup>ተ</sup> ከመዝ<sup>ቂ</sup> በሉ<sup>ተ</sup>።
 `,
     },

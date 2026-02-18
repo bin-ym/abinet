@@ -17,19 +17,24 @@ export default function CategoryClient({ id }: { id: string }) {
 
   return (
     <main className="min-h-screen p-6 max-w-3xl mx-auto text-center pb-32">
-      {/* 🔙 Back Button */}
-      <div className="flex justify-start mb-6">
-        <Link
-          href="/"
-          className="px-4 py-2 text-sm font-medium bg-blue-200 hover:bg-blue-300 rounded-lg transition text-blue-900"
-        >
-          ← {parentName}
-        </Link>
-      </div>
+      {/* 📱 Top Navbar with Back + Title */}
+      <header className="sticky top-0 z-40 -mx-6 mb-3 bg-blue-50/95 backdrop-blur-sm border-b border-blue-500">
+        <div className="px-6 py-3 flex items-center gap-3">
+          <Link
+            href={backLink}
+            className="px-4 py-2 text-sm font-medium bg-blue-100 hover:bg-blue-200 rounded-lg transition text-blue-900"
+          >
+            ← {parentName}
+          </Link>
+          <h1 className="flex-1 text-lg font-semibold text-blue-900 text-center truncate">
+            {node.title}
+          </h1>
+          {/* spacer to balance back button width on the right */}
+          <div className="w-16" />
+        </div>
+      </header>
 
-      <h1 className="text-3xl font-bold mb-8 text-blue-900">{node.title}</h1>
-
-      <div className="grid gap-4">
+      <div className="grid gap-4 mt-6">
         {node.children?.map((child) => (
           <Link
             key={child.id}

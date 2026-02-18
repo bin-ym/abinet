@@ -1,7 +1,7 @@
 {
-  "name": "የብርሀነ ህይወት የአብነት ት/ቤት",
-  "short_name": "አብነት ቤት",
-  "description": "የብርሀነ ህይወት የአብነት ት/ቤት",
+  "name": "ብርሃነ ሕይወት የአብነት ት/ቤት",
+  "short_name": "ብርሃነ ሕይወት",
+  "description": "ብርሃነ ሕይወት የአብነት ት/ቤት",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
@@ -10,15 +10,15 @@
   "orientation": "portrait",
   "icons": [
     {
-      "src": "/logo.jpg",
+      "src": "/logo.png",
       "sizes": "192x192",
-      "type": "image/jpeg",
+      "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/logo.jpg",
+      "src": "/logo.png",
       "sizes": "512x512",
-      "type": "image/jpeg",
+      "type": "image/png",
       "purpose": "any"
     }
   ],
