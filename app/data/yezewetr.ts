@@ -1,3 +1,4 @@
+import { title } from "process";
 import { PrayerNode } from "./types";
 
 export const yezewetr: PrayerNode = {
@@ -9,7 +10,7 @@ export const yezewetr: PrayerNode = {
       id: "beseme-ab",
       title: "አአትብ",
       type: "prayer",
-      audio: "/audio/በስመ አብ.mp3",
+      audio: "/audio/ውዳሴ ማርያም/ፀሎተ ዘዘውትር/፩ አአትብ.m4a",
       segments: [
         { start: 1, end: 7, text: "አአትብ<sup>ፍ</sup> ገጽየ<sup>ተ</sup> ወኲለንታየ<sup>ተ</sup> በትእምርተ-መስቀል<sup>ጣ</sup>" },
         { start: 7, end: 12, text: "በስመ-አብ<sup>ጣ</sup> ወወልድ<sup>ጣ</sup> ወመንፈስ-ቅዱስ<sup>ጣ</sup> አሐዱ<sup>ቂ</sup> አምላክ<sup>ጣ</sup>" },
@@ -39,7 +40,7 @@ export const yezewetr: PrayerNode = {
       id: "neakuteke",
       title: "ነአኲተከ",
       type: "prayer",
-      audio: "/audio/ነአኲተከ.mp3",
+      audio: "/audio/ውዳሴ ማርያም/ፀሎተ ዘዘውትር/፪ ነአኩተከ.m4a",
       segments: [
         { start: 0, end: 3, text: "ነ  አኩተከ<sup>ተ</sup> እግዚኦ<sup>ቂ</sup> ወንሴብሓከ<sup>ተ</sup>"},
         { start: 3, end: 7, text: "ንባርከከ<sup>ተ</sup> እግዚኦ<sup>ቂ</sup> ወንትአመነከ<sup>ተ</sup>"},
@@ -62,7 +63,7 @@ export const yezewetr: PrayerNode = {
       id: "abune-zebesemayat",
       title: "አቡነ ዘበሰማያት",
       type: "prayer",
-      audio: "/audio/አቡነ ዘበሰማያት.mp3",
+      audio: "/audio/ውዳሴ ማርያም/ፀሎተ ዘዘውትር/፫ አቡነ ዘበሰማያት.m4a",
       content: `
 አቡነ
 ተዘበሰማያት<sup>ጣ</sup> ይትቀደስ<sup>ተ</sup> ስምከ<sup>ተ</sup> ትምጻእ<sup>ተ</sup> መንግሥትከ<sup>ተ</sup> ወይኩን
@@ -77,17 +78,23 @@ export const yezewetr: PrayerNode = {
 ውስተ-መንሱት<sup>ቂ</sup> አላ<sup>ቂ</sup> አድኅነነ
 ተ ወባልሐነ
 ተ እምኩሉ<sup>ቂ</sup> እኩይ<sup>ጣ</sup> እስመ-ዚአከ<sup>ተ</sup> ይእቲ<sup>ተ</sup> መንግሥት<sup>ጣ</sup> ኃይል<sup>ጣ</sup> ወስብሐት<sup>ጣ</sup> ለዓለመ-ዓለም።ጣ
-በሰላመ-ቅዱስ<sup>ጣ</sup> ገብርኤል<sup>ተ</sup> መልአክ<sup>ጣ</sup> ኦ<sup>ቂ</sup> እግዝእትየ
+`,
+    },
+    {
+      id: "beselame-kedus-gebrial",
+      title: "በሰላመ ቅዱስ ገብርኤል",
+      type: "prayer",
+      audio: "/audio/ውዳሴ ማርያም/ፀሎተ ዘዘውትር/፬ በሰላመ ቅዱስ ገብርኤል.m4a",
+      content: `በሰላመ-ቅዱስ<sup>ጣ</sup> ገብርኤል<sup>ተ</sup> መልአክ<sup>ጣ</sup> ኦ<sup>ቂ</sup> እግዝእትየ
 ተ ማርያም<sup>ጣ</sup> ሰላም<sup>ጣ</sup> ለኪ<sup>ተ</sup> ድንግል<sup>ጣ</sup> በኅሊናኪ<sup>ተ</sup> ወድንግል<sup>ጣ</sup> በሥጋኪ<sup>ተ</sup> እመ እግዚአብሔር<sup>ጣ</sup> ጸባኦት<sup>ጣ</sup> ሰላም<sup>ጣ</sup> ለኪ<sup>ተ</sup> ቡርክት<sup>ጣ</sup> አንቲ<sup>ተ</sup> እምአንስት<sup>ጣ</sup> ወቡሩክ<sup>ጣ</sup> ፍሬ-ከርሥኪ<sup>ተ</sup> ተፈሥሒ<sup>ተ</sup> ፍሥሕት<sup>ጣ</sup> ኦ<sup>ቂ</sup> ምልእ<sup>ተ</sup> ጸጋ<sup>ቂ</sup> እግዚአብሔር<sup>ጣ</sup> ምስሌኪ<sup>ተ</sup> ሰአሊ<sup>ተ</sup> ወጸልዪ<sup>ተ</sup> ምሕረት<sup>ተ</sup> በእንቲአነ
 ተ ኀበ-ፍቁር<sup>ጣ</sup> ወልድኪ<sup>ተ</sup> ኢየሱስ ጣ ክርስቶስ<sup>ጣ</sup> ከመ-ይሥረይ<sup>ተ</sup> ለነ
-ተ ኃጢአተነ።ተ
-`,
+ተ ኃጢአተነ።ተ`,
     },
     {
       id: "tselote-haymanot",
       title: "ጸሎተ ሃይማኖት",
       type: "prayer",
-      audio: "/audio/ጸሎተ ሃይማኖት.mp3",
+      audio: "/audio/ውዳሴ ማርያም/ፀሎተ ዘዘውትር/፭ ጸሎተ ሃይማኖት.m4a",
       content: `
 ጸሎተ-ሃይማኖት<sup>ጣ</sup> ነአምን
 በአሐዱ<sup>ቂ</sup> አምላክ<sup>ጣ</sup> እግዚአብሔር<sup>ጣ</sup> አብ<sup>ጣ</sup> አኃዜ-ኩሉ<sup>ቂ</sup> ገባሬ ሰማያት<sup>ቂ</sup> ወምድር<sup>ጣ</sup> ዘያስተርኢ<sup>ተ</sup> ወዘኢያስተርኢ<sup>ተ</sup> ወነአምን
@@ -121,7 +128,7 @@ export const yezewetr: PrayerNode = {
       id: "kidus-kidus-kidus",
       title: "ቅዱስ ቅዱስ ቅዱስ",
       type: "prayer",
-      audio: "/audio/ቅዱስ ቅዱስ ቅዱስ.mp3",
+      audio: "/audio/ውዳሴ ማርያም/ፀሎተ ዘዘውትር/፮ ቅዱስ ቅዱስ ቅዱስ.m4a",
       content: `
 ቅዱስ<sup>ጣ</sup> ቅዱስ<sup>ጣ</sup> ቅዱስ<sup>ጣ</sup> እግዚአብሔር<sup>ጣ</sup> ጸባኦት<sup>ጣ</sup> ፍጹም<sup>ጣ</sup> ምሉዕ
 ጣ ሰማያት<sup>ጣ</sup> ወምድረ<sup>ተ</sup> ቅድሳተ-ስብሐቲከ።ተ ንሰግድ<sup>ተ</sup> ለከ<sup>ተ</sup> ክርስቶስ<sup>ጣ</sup> ምስለ አቡከ<sup>ተ</sup> ኄር<sup>ጣ</sup> ሰማያዊ<sup>ጣ</sup> ወመንፈስከ<sup>ተ</sup> ቅዱስ<sup>ጣ</sup> ማኅየዊ<sup>ቂ</sup> እስመ-መጻእከ<sup>ተ</sup> ወአድኃንከነ።ተ
@@ -131,9 +138,9 @@ export const yezewetr: PrayerNode = {
       id: "esegid-leab",
       title: "እሰግድ ለአብ",
       type: "prayer",
-      audio: "/audio/እሰግድ ለአብ.mp3",
+      audio: "/audio/ውዳሴ ማርያም/ፀሎተ ዘዘውትር/፯ እሰግድ.m4a",
       content: `
-እሰግድ<sup>ፍ</sup> ለአብ<sup>ጣ</sup> ወወልድ<sup>ጣ</sup> ወመንፈስ-ቅዱስ<sup>ጣ</sup> አሐቲ<sup>ቂ</sup> ሰግደተ(ሰለስተ-ጊዜ-በል)
+እሰግድ<sup>ፍ</sup> ለአብ<sup>ጣ</sup> ወወልድ<sup>ጣ</sup> ወመንፈስ-ቅዱስ<sup>ጣ</sup> አሐተ<sup>ቂ</sup> ሰግደተ(ሰለስተ-ጊዜ-በል)
 ተ እንዘ-አሐዱ<sup>ቂ</sup> ሠለስቱ<sup>ቂ</sup> ወእንዘ ሠለስቱ<sup>ቂ</sup> አሐዱ<sup>ቂ</sup> ይሤለሱ<sup>ተ</sup> በአካላት<sup>ጣ</sup> ወይትዋሐዱ<sup>ተ</sup> በመለኮት።ቂ እሰግድ<sup>ፍ</sup> ለእግዝእትነ
 ተ ማርያም<sup>ጣ</sup> ድንግል<sup>ጣ</sup> ወላዲተ-አምላክ።
 ጣ እሰግድ<sup>ፍ</sup> ለመስቀለ-እግዚእነ
@@ -151,7 +158,7 @@ export const yezewetr: PrayerNode = {
       id: "sebhat-leab",
       title: "ስብሐት ለአብ",
       type: "prayer",
-      audio: "/audio/ስብሐት ለአብ.mp3",
+      audio: "/audio/ውዳሴ ማርያም/ፀሎተ ዘዘውትር/፰ ስብሐት.m4a",
       content: `
 ስብሐት<sup>ጣ</sup> ለአብ<sup>ጣ</sup> ስብሐት<sup>ጣ</sup> ለወልድ<sup>ጣ</sup> ስብሐት<sup>ጣ</sup> ለመንፈስ-ቅዱስ(ሰለስተ-ግዜ-በል)
 ጣ ስብሐት<sup>ጣ</sup> ለእግዝትነ
@@ -173,29 +180,43 @@ export const yezewetr: PrayerNode = {
 ተነ
 ተ ወለዘወሀበነ
 ተ ሥጋሁ<sup>ቂ</sup> ቅዱሰ<sup>ተ</sup> ወደሞ<sup>ቂ</sup> ክቡረ<sup>ተ</sup> ወለዘአብጽሐነ
-ተ እስከ ዛቲ<sup>ቂ</sup> ሰዓት<sup>ጣ</sup> ነሀብ<sup>ፍ</sup> ሎቱ<sup>ቂ</sup> ስብሐተ<sup>ተ</sup> ወአኰቴተ<sup>ተ</sup> ለእግዚአብሔር<sup>ጣ</sup> ልዑል<sup>ጣ</sup> ወለወላዲቱ<sup>ቂ</sup> ድንግል<sup>ጣ</sup> ወለመስቀሉ<sup>ቂ</sup> ክቡር<sup>ጣ</sup> ይትአኰት<sup>ፍ</sup> ወይሰባሕ<sup>ፍ</sup> ስሙ<sup>ቂ</sup>
-ለእግዚአብሔር<sup>ጣ</sup> ወትረ<sup>ተ</sup> ብኵሉ<sup>ቂ</sup> ጊዜ<sup>ቂ</sup> ወበኵሉ<sup>ቂ</sup> ሰዓት።ጣ
-`,
+ተ እስከ ዛቲ<sup>ቂ</sup> ሰዓት<sup>ጣ</sup>`,
+    },
+    {id: "nehab-lotu",
+      title: "ነሀብ ሎቱ",
+      type: "prayer",
+      audio: "/audio/ውዳሴ ማርያም/ፀሎተ ዘዘውትር/፱ ነሀብ ሎቱ.m4a",
+      content: `ነሀብ<sup>ፍ</sup> ሎቱ<sup>ቂ</sup> ስብሐተ<sup>ተ</sup> ወአኰቴተ<sup>ተ</sup> ለእግዚአብሔር<sup>ጣ</sup> ልዑል<sup>ጣ</sup> ወለወላዲቱ<sup>ቂ</sup> ድንግል<sup>ጣ</sup> ወለመስቀሉ<sup>ቂ</sup> ክቡር<sup>ጣ</sup> ይትአኰት<sup>ፍ</sup> ወይሰባሕ<sup>ፍ</sup> ስሙ<sup>ቂ</sup>
+ለእግዚአብሔር<sup>ጣ</sup> ወትረ<sup>ተ</sup> በኵሉ<sup>ቂ</sup> ጊዜ<sup>ቂ</sup> ወበኵሉ<sup>ቂ</sup> ሰዓት<sup>ጣ</sup>።
+`
     },
     {
       id: "selam-leki",
       title: "ሰላም ለኪ",
       type: "prayer",
-      audio: "/audio/ሰላም ለኪ.mp3",
+      audio: "/audio/ውዳሴ ማርያም/ፀሎተ ዘዘውትር/፲ ሰላም ለኪ.m4a",
       content: `
-  ሰላም<sup>ጣ</sup> ለኪ<sup>ተ</sup> እንዘ-ንሰግድ<sup>ፍ</sup> ንብለኪ<sup>ተ</sup> ማርያም<sup>ጣ</sup> እምነ
-  ተ ናስተበቍዐኪ።ተ እምአርዌ<sup>ቂ</sup> ነዓዊ<sup>ቂ</sup> ተማህፀነ
-  ተ ብኪ<sup>ተ</sup> በእን<sup>ተ</sup> ሐና<sup>ቂ</sup> እምኪ<sup>ተ</sup> ወኢያቄም<sup>ጣ</sup> አቡኪ<sup>ተ</sup> ማኅበረነ
-  ተ ዮም<sup>ጣ</sup> ድንግል<sup>ጣ</sup> ባርኪ።<sup>ተ</sup>
+  ሰላም<sup>ጣ</sup> ለኪ<sup>ተ</sup> እንዘ-ንሰግድ<sup>ፍ</sup> ንብለኪ<sup>ተ</sup>
+  ማርያም<sup>ጣ</sup> እምነ<sup>ተ</sup>ናስተበቍዐኪ።<sup>ተ</sup>
+  እምአርዌ<sup>ቂ</sup> ነዓዊ<sup>ቂ</sup> ተማህፀነ<sup>ተ</sup>ብኪ<sup>ተ</sup>
+  በእንተ ሐና<sup>ቂ</sup> እምኪ<sup>ተ</sup> ወኢያቄም<sup>ጣ</sup> አቡኪ<sup>ተ</sup> 
+  ማኅበረነ<sup>ተ</sup>ዮም<sup>ጣ</sup> ድንግል<sup>ጣ</sup> ባርኪ።<sup>ተ</sup>
   `,
     },
     {
       id: "tselot-egezebetnete",
-      title: "ጸሎት-እግዝእትነተ",
+      title: "ጸሎት እግዝእትነ ማርያም",
       type: "prayer",
-      audio: "/audio/ጸሎት-እግዝእትነተ.mp3",
+      audio: "/audio/ውዳሴ ማርያም/ፀሎተ ዘዘውትር/፲፩ ጸሎተ እግዝእትነ ማርያም.m4a",
       content: `
   ጸሎት-እግዝእትነተ ማርያምጣ ድንግልጣ ወላዲተጣ ኣምላክ።ጣ ታዐብዮቂ ነብስየተ ለእግዚአብሔርጣ ወትትኃሠይፍ መንፈስየተ በአምላኪየተ ወመድኃንየተ እስመ-ርእየተ ሕማማቂ ለአመቱቂ ናሁቂ እምይእዜሰተ ያስተበፅዑኒተ ኩሉቂ ትዉልድጣ እስመ-ገብረተ ሊተተ ኃይለተ ዐቢያተተ ወቅዱስጣ ስሙቂ ወሣህሉኒቂ ለትውልድ-ትዉልድጣ ለእለ-ይፈርህዎተ ወገብረተ ኃይለተ በመዝራዕቱቂ ወዘረዎሙተ ለእለ-ያዐብዩተ ሕሊና-ልቦሙጣ ወነሠቶሙተ ለኃያላንጣ እመናብርቲሆሙተ አዕበዩሙተ ለትሑታንጣ ወአጽገቦሙተ እምበረከቱቂ ለርኁባንጣ ወፈነዎሙተ ዕራቆሙተ ለብዑላንጣ ወተወክፎቂ ለእስራኤልጣ ቍልዔሁቂ ወተዘከረተ ሣህሎቂ ዘይቤሎሙተ ለአበዊነተ ለአብርሃምፍ ወለዘርኡቂ እስከ-ለዓለም።ጣ`,
+    },
+    {
+      id: "o-egezebetnete",
+      title: "ኦ እግዝእትየ",
+      type: "prayer",
+      audio: "/audio/ውዳሴ ማርያም/ፀሎተ ዘዘውትር/፲፪_ኦ_እግዝእትየ_የውዳሴ_ማርያም_መግቢያ.m4a",
+      content: `ኦ እግዝእትየ ፍትህኒ እማይሰሩ ለሰይጣን እሙ ለመድህን ወለተ ብርሐን ባርክኒ ቀድስኒ ወአንፅህኒ በከመ ባርኪዮ ለቅዱስ ኤፍሬም ፍቁርኪ በረከተ ፍቁር ወልድኪ ወአቡሁ ወመንፈስ ቅዱስ ይህድር በላይሌየ`
     },
   ],
 };

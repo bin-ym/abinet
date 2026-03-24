@@ -8,9 +8,9 @@ export const wedasePart1: PrayerNode[] = [
     children: [
       {
         id: "fekede-egzi",
-        title: "1. ፈቀደ እግዚእ",
+        title: "ፈቀደ",
         type: "prayer",
-        audio: "/audio/fekede-egzi.mp3",
+        audio: "/audio/ውዳሴ ማርያም/ውዳሴ ማርያም/ዘሰኑይ/፩ ፈቀደ.m4a",
         segments: [
           { start: 0, end: 7, text: "ዉዳሴሃ<sup>ቂ</sup> ለእግዝእትነ<sup>ጣ</sup> ማርያም<sup>ጣ</sup> ድንግል<sup>ቂ</sup> ወላዲተ-አምላክ<sup>ጣ</sup> ዘይትነበብ<sup>ፍ</sup> በዕለተ-ሰኑይ።<sup>ጣ</sup>" },
           { start: 7, end: 9, text: "ፈቀደ<sup>ተ</sup> እግዚእ<sup>ጣ</sup>" },
@@ -24,9 +24,9 @@ export const wedasePart1: PrayerNode[] = [
       },
       {
         id: "sereke",
-        title: "2. ሠረቀ",
+        title: "ለሔዋን",
         type: "prayer",
-        audio: "/audio/ሠረቀ.mp3",
+        audio: "/audio/ውዳሴ ማርያም/ውዳሴ ማርያም/ዘሰኑይ/፪ ለሔዋን.m4a",
         content: `
 ሠረቀ<sup>ተ</sup> በሥጋ<sup>ቂ</sup> እምድንግል<sup>ጣ</sup> ዘእንበለ-ዘርአ-ብእሲ<sup>ቂ</sup> ወአድኀነነ
 ተ ለሔዋን
@@ -36,9 +36,9 @@ export const wedasePart1: PrayerNode[] = [
       },
       {
         id: "eyesus-kristos",
-        title: "3. ኢየሱስ ክርስቶስ",
+        title: "ኢየሱስ ክርስቶስ",
         type: "prayer",
-        audio: "/audio/ኢየሱስ ክርስቶስ.mp3",
+        audio: "/audio/ውዳሴ ማርያም/ውዳሴ ማርያም/ዘሰኑይ/፫ ኢየሱስ.m4a",
         content: `
 ኢየሱስ ጣ ክርስቶስ<sup>ጣ</sup> ቃል<sup>ጣ</sup> ዘተሰብአ<sup>ተ</sup> ወኀደረ<sup>ተ</sup> ላዕሌነ
 ተ ወርኢነ
@@ -49,9 +49,9 @@ export const wedasePart1: PrayerNode[] = [
       },
       {
         id: "reye",
-        title: "4. ርእየ",
+        title: "ርእየ",
         type: "prayer",
-        audio: "/audio/ርእየ.mp3",
+        audio: "/audio/ውዳሴ ማርያም/ውዳሴ ማርያም/ዘሰኑይ/፬ ርእየ.m4a",
         content: `
 ርእየ
 ተ ኢሳይያስ<sup>ተ</sup> ነቢይ<sup>ጣ</sup> በመንፈሰ-ትንቢት<sup>ቂ</sup> ምሥጢሮ<sup>ቂ</sup> ለአማኑኤል<sup>ፍ</sup> ወበእንተዝ<sup>ቂ</sup> ጸርሐ<sup>ተ</sup> እንዘ ይብል<sup>ጣ</sup> ሕፃን
@@ -62,9 +62,9 @@ export const wedasePart1: PrayerNode[] = [
       },
       {
         id: "tefesah",
-        title: "5. ተፈሣሕ",
+        title: "ተፈሣሕ",
         type: "prayer",
-        audio: "/audio/ተፈሣሕ.mp3",
+        audio: "/audio/ውዳሴ ማርያም/ውዳሴ ማርያም/ዘሰኑይ/፭ ተፈሣሕ.m4a",
         content: `
 ተፈሣሕ<sup>ፍ</sup> ወተኀሠይ<sup>ፍ</sup> ኦ<sup>ቂ</sup> ዘመደ-እጓለ-እመ-ሕያዉ<sup>ጣ</sup> እስመ-አፍቀሮ<sup>ቂ</sup> እግዚአብሔር<sup>ጣ</sup> ለዓለም<sup>ጣ</sup> ወመጠወ<sup>ተ</sup> ወልዶ<sup>ቂ</sup> ዋሕደ<sup>ተ</sup> ከመ ይሕየዉ<sup>ፍ</sup> ኵሉ<sup>ቂ</sup> ዘየአምን
 ፍ ቦቱ<sup>ቂ</sup> እስከ-ለዓለም<sup>ጣ</sup> ፈነወ<sup>ተ</sup> ለነ
@@ -74,9 +74,9 @@ export const wedasePart1: PrayerNode[] = [
       },
       {
         id: "zehalo",
-        title: "6. ዘሀሎ",
+        title: "ዘሀሎ",
         type: "prayer",
-        audio: "/audio/ዘሀሎ.mp3",
+        audio: "/audio/ውዳሴ ማርያም/ውዳሴ ማርያም/ዘሰኑይ/፮ ዘሀሎ.m4a",
         content: `
 ዘሀሎ<sup>ቂ</sup> ወይሄሉ<sup>ተ</sup> ዘመጽአ<sup>ተ</sup> ወካዕበ<sup>ተ</sup> ይመጽእ<sup>ቂ</sup> ኢየሱስ ጣ ክርስቶስ<sup>ጣ</sup> ቃል<sup>ጣ</sup> ዘተሰብአ<sup>ተ</sup> እምኔኪ<sup>ተ</sup> ዘእንበለ ዉላጤ<sup>ቂ</sup> ኮነ
 ተ ፍጹመ<sup>ተ</sup> ሰብአ<sup>ተ</sup> ኢተበዐደ<sup>ተ</sup> ወኢተፈለጠ<sup>ተ</sup> በኵሉ<sup>ቂ</sup> ግብሩ<sup>ቂ</sup> ወልድ<sup>ጣ</sup> ዋሕድ<sup>ጣ</sup> አላ<sup>ቂ</sup> አሐዱ<sup>ቂ</sup> ራእይ<sup>ጣ</sup> ወአሐዱ<sup>ቂ</sup> ህላዌ<sup>ቂ</sup> ወአሐዱ<sup>ቂ</sup> መለኮት<sup>ቂ</sup> ዘ
@@ -86,9 +86,9 @@ export const wedasePart1: PrayerNode[] = [
       },
       {
         id: "tefesahi-o-bete-lehem",
-        title: "7. ተፈሥሒ ኦ ቤተ ልሔም",
+        title: "ተፈሥሒ ኦ ቤተ ልሔም",
         type: "prayer",
-        audio: "/audio/ተፈሥሒ ኦ ቤተ ልሔም.mp3",
+        audio: "/audio/ውዳሴ ማርያም/ውዳሴ ማርያም/ዘሰኑይ/፯ ተፈሥሒ አ ቤተ ልሔም.m4a",
         content: `
 ተፈሥሒ<sup>ተ</sup> ኦ<sup>ቂ</sup> ቤተ-ልሔም<sup>ጣ</sup> ሀገሮሙ<sup>ተ</sup> ለነቢያት<sup>ቂ</sup> እስመ-በኀቤኪ<sup>ተ</sup> ተወልደ<sup>ተ</sup> ክርስቶስ<sup>ጣ</sup> ዳግማይ<sup>ጣ</sup> አዳም<sup>ጣ</sup> ከመ ያግብኦ<sup>ተ</sup> ለአዳም<sup>ጣ</sup> ቀዳሚ<sup>ቂ</sup> ብእሲ<sup>ቂ</sup> እምድር<sup>ጣ</sup> ዉስተ-ገነት<sup>ጣ</sup> ይስዐር<sup>ፍ</sup> ፍትሐ-ሞት።ጣ ኦ<sup>ቂ</sup> አዳም<sup>ጣ</sup> መሬት<sup>ጣ</sup> አንተ<sup>ተ</sup> ወትገብእ<sup>ፍ</sup> ዉስተ-መሬት።ጣ ኀበ ሀለወት<sup>ፍ</sup> ብዝኀት<sup>ጣ</sup> ኃጢአት<sup>ጣ</sup> በህየ
 ቂ ትበዝኅ<sup>ተ</sup> ጸጋ-እግዚአብሔር።ጣ ሰአሊ<sup>ተ</sup> ለነ
@@ -97,9 +97,9 @@ export const wedasePart1: PrayerNode[] = [
       },
       {
         id: "titfesah",
-        title: "8. ትትፌሣሕ",
+        title: "ትትፌሣሕ",
         type: "prayer",
-        audio: "/audio/ትትፌሣሕ.mp3",
+        audio: "/audio/ውዳሴ ማርያም/ውዳሴ ማርያም/ዘሰኑይ/፰ ትትፌሣሕ.m4a",
         content: `
 ትትፌሣሕ<sup>ፍ</sup> ወትትኀሠይ<sup>ፍ</sup> ኵሉ<sup>ቂ</sup> ነፍስተ-ሰብእ<sup>ጣ</sup> ምስለ መላእክት<sup>ጣ</sup> ይሴብሕዎ<sup>ተ</sup> ለክርስቶስ<sup>ጣ</sup> ንጉሥ<sup>ጣ</sup> ይጸርሑ<sup>ተ</sup> ወይብሉ<sup>ተ</sup> ስብሐት<sup>ጣ</sup> ለእግዚአብሔር<sup>ጣ</sup> በሰማያት<sup>ጣ</sup> ወሰላም<sup>ጣ</sup> በምድር<sup>ጣ</sup> ሥምረቱ<sup>ቂ</sup> ለሰብእ፣
 ጣ እስመ-ሰዐረ<sup>ተ</sup> ዘትካት<sup>ጣ</sup> ወነሠተ<sup>ተ</sup> ምክሮ<sup>ቂ</sup> ለጸላዒ<sup>ቂ</sup> ወሠጠጠ<sup>ተ</sup> መጽሐፈ ዕዳሆሙ<sup>ተ</sup> ለአዳም<sup>ጣ</sup> ወለሔዋን
@@ -112,9 +112,9 @@ export const wedasePart1: PrayerNode[] = [
       },
       {
         id: "berhan-zebeaman",
-        title: "9. ብርሃን ዘበአማን",
+        title: "ብርሃን",
         type: "prayer",
-        audio: "/audio/ብርሃን ዘበአማን.mp3",
+        audio: "/audio/ውዳሴ ማርያም/ውዳሴ ማርያም/ዘሰኑይ/፱ ብርሃን.m4a",
         content: `
 ብርሃን
 ጣ ዘበአማን

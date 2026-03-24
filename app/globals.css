@@ -181,3 +181,7 @@ sup {
   vertical-align: super;
   line-height: 0;
 }
+
+.red-word {
+  color: red;
+}
