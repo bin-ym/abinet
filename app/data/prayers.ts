@@ -1,8 +1,13 @@
 import { PrayerNode } from "./types";
 import { yezewetr } from "./yezewetr";
 import { wedasePart1 } from "./wedase-part1";
-import { wedasePart2 } from "./wedase-part2";
 import { monday } from "./ውዳሴ ማርያም/ዘሰኑይ";
+import { tuesday } from "./ውዳሴ ማርያም/ዘሠሉስ";
+import { wednesday } from "./ውዳሴ ማርያም/ዘረቡዕ";
+import { thursday } from "./ውዳሴ ማርያም/ዘሐሙስ";
+import { friday } from "./ውዳሴ ማርያም/ዘዓርብ";
+import { saturday } from "./ውዳሴ ማርያም/ዘቀዳሚት ሰንበት";
+import { sunday } from "./ውዳሴ ማርያም/ዘሰንበተ ክርስቲያን ቅድስት";
 import { otherPrayers } from "./others";
 
 export type { PrayerNode };
@@ -13,7 +18,7 @@ export const prayerData: PrayerNode[] = [
     id: "wedase",
     title: "የዕለቱ ውዳሴ ማርያም",
     type: "category",
-    children: [...monday, ...wedasePart2],
+    children: [...monday, ...tuesday, ...wednesday, ...thursday, ...friday, ...saturday, ...sunday],
   },
   ...otherPrayers,
 ];
